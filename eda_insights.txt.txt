@@ -1,0 +1,37 @@
+👇
+
+📊 Exploratory Data Analysis (EDA) Report – Sample Superstore
+1. Introduction
+
+This report presents the exploratory data analysis performed on the Sample Superstore dataset. The objective is to understand sales patterns, profit distribution, and business performance across different categories and regions.
+
+2. Dataset Description
+
+The dataset contains information about orders, including product details, sales, profit, quantity, category, and region. It helps in analyzing business performance and identifying trends.
+
+3. Data Analysis Performed
+Loaded dataset using pandas
+Cleaned column names and handled encoding issues
+Converted date columns into proper format
+Performed descriptive statistics
+Created visualizations such as histograms, bar charts, scatter plots, and heatmaps
+4. Visualizations
+
+The following visualizations were created:
+
+Sales Distribution Histogram
+Sales by Category (Bar Chart)
+Profit by Region (Bar Chart)
+Sales vs Profit (Scatter Plot)
+Correlation Heatmap
+5. Insights
+Most of the sales values are concentrated in lower ranges, indicating a right-skewed distribution.
+The Technology category generates the highest sales compared to Furniture and Office Supplies.
+The West region contributes the highest profit among all regions.
+There is no direct relationship between sales and profit; higher sales do not always result in higher profit.
+Some transactions with high sales show negative profit due to heavy discounts.
+Discounts have a negative impact on profit, as observed from the correlation analysis.
+Certain sub-categories perform better than others in terms of profitability.
+6. Conclusion
+
+The analysis reveals key patterns in sales and profit distribution. Technology products and the West region perform well, while discounts significantly reduce profitability. These insights can help businesses make better decisions regarding pricing, marketing, and inventory management.
